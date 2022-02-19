@@ -1,4 +1,4 @@
 {
-  "folder" : "for_allure_report"
-  "delete" : "it_later"
+  "folder" : "for_allure_report",
+  "delete" : "it_later_when_actual_report_generates"
 }
