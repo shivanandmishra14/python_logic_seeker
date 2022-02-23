@@ -1,0 +1,7 @@
+contact_click = "//a[normalize-space()='Contact']"
+contact_email = "recipient-email"
+contact_name = "recipient-name"
+contact_message = "message-text"
+contact_message_text = "We have been using this website and automating the same"
+contact_send_message = "(//button[@type='button'])[3]"
+contact_close = "(//button[@type='button'])[2]"
