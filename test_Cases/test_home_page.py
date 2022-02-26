@@ -24,3 +24,9 @@ wait.until(expected_conditions.visibility_of_element_located((By.XPATH, home_nex
 wait.until(expected_conditions.visibility_of_element_located((By.ID, home_previous))).click()
 driver.execute_script("window.scrollTo(document.body.scrollHeight, 0);")
 
+# banner
+wait.until(expected_conditions.visibility_of_element_located((By.CLASS_NAME, home_banner_forward_btn)))
+wait.until(expected_conditions.visibility_of_element_located((By.CLASS_NAME, home_banner_backward_btn)))
+
+
+

@@ -30,13 +30,4 @@ wait.until(expected_conditions.visibility_of_element_located((By.ID, contact_mes
 wait.until(expected_conditions.visibility_of_element_located((By.XPATH, contact_send_message))).click()
 driver.switch_to.alert.accept()
 
-# login
-login_click = wait.until(expected_conditions.visibility_of_element_located((By.ID, login_btn))).click()
-wait.until(expected_conditions.visibility_of_element_located((By.XPATH, login_close))).click()
-
-wait.until(expected_conditions.visibility_of_element_located((By.ID, login_btn))).click()
-wait.until(expected_conditions.visibility_of_element_located((By.ID, login_username))).send_keys(account_text_username)
-wait.until(expected_conditions.visibility_of_element_located((By.ID, login_password))).send_keys(account_text_password)
-wait.until(expected_conditions.visibility_of_element_located((By.XPATH, account_login))).click()
-
 # driver.quit()
