@@ -23,10 +23,12 @@ login_click = wait.until(expected_conditions.visibility_of_element_located((By.I
 wait.until(expected_conditions.visibility_of_element_located((By.XPATH, login_close))).click()
 
 # wrong credentials
-wait.until(expected_conditions.visibility_of_element_located((By.ID, login_btn))).click()
-wait.until(expected_conditions.visibility_of_element_located((By.ID, login_username))).send_keys(wrong_cred_username)
-wait.until(expected_conditions.visibility_of_element_located((By.ID, login_password))).send_keys(wrong_cred_password)
-wait.until(expected_conditions.visibility_of_element_located((By.XPATH, account_login))).click()
+# wait.until(expected_conditions.visibility_of_element_located((By.ID, login_btn))).click()
+# wait.until(expected_conditions.visibility_of_element_located((By.ID, login_username))).send_keys(wrong_cred_username)
+# wait.until(expected_conditions.visibility_of_element_located((By.ID, login_password))).send_keys(wrong_cred_password)
+# wait.until(expected_conditions.visibility_of_element_located((By.XPATH, account_login))).click()
+# time.sleep(2)
+# driver.switch_to.alert.accept()
 
 # Login
 wait.until(expected_conditions.visibility_of_element_located((By.ID, login_btn))).click()
