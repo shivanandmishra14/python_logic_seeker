@@ -30,5 +30,7 @@ home_previous = "prev2"
 home_banner_forward_btn = "carousel-control-next-icon"
 home_banner_backward_btn = "carousel-control-prev-icon"
 
-wrong_cred_username= "9999"
-wrong_cred_password= "9999"
+wrong_cred_username = "9999"
+wrong_cred_password = "9999"
+wrong_cred_close = "btn btn-secondary"
+

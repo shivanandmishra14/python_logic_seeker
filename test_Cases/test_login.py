@@ -27,8 +27,11 @@ wait.until(expected_conditions.visibility_of_element_located((By.XPATH, login_cl
 # wait.until(expected_conditions.visibility_of_element_located((By.ID, login_username))).send_keys(wrong_cred_username)
 # wait.until(expected_conditions.visibility_of_element_located((By.ID, login_password))).send_keys(wrong_cred_password)
 # wait.until(expected_conditions.visibility_of_element_located((By.XPATH, account_login))).click()
+# wait.until(expected_conditions.visibility_of_element_located((By.XPATH, login_close))).click()
+#
 # time.sleep(2)
 # driver.switch_to.alert.accept()
+# wait.until(expected_conditions.visibility_of_element_located((By.XPATH, wrong_cred_close))).click()
 
 # Login
 wait.until(expected_conditions.visibility_of_element_located((By.ID, login_btn))).click()
