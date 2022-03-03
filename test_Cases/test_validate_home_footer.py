@@ -7,6 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from test_Cases.home_footer_locators import *
+from Logging.log_file import *
 
 # from TestCase.locators import *
 # from selenium.webdriver import ActionChains

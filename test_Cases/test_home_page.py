@@ -7,6 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from test_Cases.locators import *
+from Logging.log_file import *
 
 driver = webdriver.Chrome(executable_path="..\\driver\\chromedriver.exe")
 driver.maximize_window()
