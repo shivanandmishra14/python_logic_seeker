@@ -19,7 +19,7 @@ driver.maximize_window()
 driver.get("https://www.demoblaze.com/index.html")
 
 wait = WebDriverWait(driver, 10)
-
+'''
 wait.until(expected_conditions.visibility_of_element_located((By.XPATH, contact_click))).click()
 wait.until(expected_conditions.visibility_of_element_located((By.XPATH, contact_close))).click()
 
@@ -29,7 +29,7 @@ wait.until(expected_conditions.visibility_of_element_located((By.ID, contact_nam
 wait.until(expected_conditions.visibility_of_element_located((By.ID, contact_message))).send_keys(contact_message_text)
 wait.until(expected_conditions.visibility_of_element_located((By.XPATH, contact_send_message))).click()
 driver.switch_to.alert.accept()
-
+'''
 # login
 login_click = wait.until(expected_conditions.visibility_of_element_located((By.ID, login_btn))).click()
 wait.until(expected_conditions.visibility_of_element_located((By.XPATH, login_close))).click()
