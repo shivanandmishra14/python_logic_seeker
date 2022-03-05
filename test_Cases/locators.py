@@ -12,3 +12,18 @@ account_text_username = "pythonlogic"
 account_text_password = "pythonlogic"
 login_close = "(//button[@type='button'])[8]"
 account_login = "(//button[@type='button'])[9]"
+
+#ph_locators
+ph_product = "Samsung galaxy s6"
+ph_add_to_cart_btn = "Add to cart"
+cart_btn = "Cart"
+place_order_btn = "//button[@class='btn btn-success']"
+name_txt_field = "name"
+country_txt_field = "country"
+city_txt_field = "city"
+card_txt_field = "card"
+month_txt_field = "month"
+year_txt_field = "year"
+purchase_btn = "//div[@class='modal-footer']/button[text()='Purchase']"
+confirmation_ok_btn = "//div[@class='sa-confirm-button-container']/button[text()='OK']"
+
