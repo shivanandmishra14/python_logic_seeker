@@ -7,9 +7,18 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from test_Cases.locators import *
+<<<<<<< HEAD
 #from Logging.log_file import *
 
 driver = webdriver.Chrome(executable_path= "..\\driver\\chromedriver.exe")
+=======
+from Logging.log_file import *
+
+# from TestCase.locators import *
+# from selenium.webdriver import ActionChains
+
+driver = webdriver.Chrome(executable_path="..\\driver\\chromedriver.exe")
+>>>>>>> 12aa8be2b2487edbea3da41c219094de6a0d6c73
 
 driver.maximize_window()
 
@@ -29,6 +38,7 @@ wait.until(expected_conditions.visibility_of_element_located((By.ID, contact_mes
 wait.until(expected_conditions.visibility_of_element_located((By.XPATH, contact_send_message))).click()
 driver.switch_to.alert.accept()
 
+<<<<<<< HEAD
 # login
 login_click = wait.until(expected_conditions.visibility_of_element_located((By.ID, login_btn))).click()
 wait.until(expected_conditions.visibility_of_element_located((By.XPATH, login_close))).click()
@@ -70,3 +80,6 @@ wait.until(expected_conditions.visibility_of_element_located((By.XPATH, year))).
 wait.until(expected_conditions.visibility_of_element_located((By.XPATH, purchase_btn))).click()
 
 #driver.quit()
+=======
+# driver.quit()
+>>>>>>> 12aa8be2b2487edbea3da41c219094de6a0d6c73
