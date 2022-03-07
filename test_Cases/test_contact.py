@@ -80,6 +80,4 @@ wait.until(expected_conditions.visibility_of_element_located((By.XPATH, year))).
 wait.until(expected_conditions.visibility_of_element_located((By.XPATH, purchase_btn))).click()
 
 #driver.quit()
-=======
-# driver.quit()
->>>>>>> 12aa8be2b2487edbea3da41c219094de6a0d6c73
+
