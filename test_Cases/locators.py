@@ -14,6 +14,26 @@ account_text_password = "pythonlogic"
 login_close = "(//button[@type='button'])[8]"
 account_login = "(//button[@type='button'])[9]"
 <<<<<<< HEAD
+laptops= "(//a[@class='list-group-item'])[3]"
+sonyvaio = "(//*[@id='tbodyid']/div[1]/div/div/h4/a)"
+addtocart = "(//*[@id='tbodyid']/div[2]/div/a)"
+sony_laptop_name = "//*[@id='tbodyid']/h2"
+cart_btn = "(//div//ul//li//a[contains(text(),'Cart')])"
+delete_btn = "(//*[@id='tbodyid']/tr/td[4]/a)"
+placeorder_btn = "(//*[@id='page-wrapper']/div/div[2]/button)"
+name = "(//*[@id='name'])"
+country = "(//*[@id='country'])"
+city = "(//*[@id='city'])"
+card = "(//*[@id='card'])"
+month = "(//*[@id='month'])"
+year = "(//*[@id='year'])"
+purchase_btn = "(//*[@id='orderModal']/div/div/div[3]/button[2])"
+okay_btn =  "(/html/body/div[10]/div[7]/div/button)"
+macbook = "(//*[@id='tbodyid']/div[3]/div/div/h4/a)"
+addcart_btn = "(//*[@id='tbodyid']/div[2]/div/a)"
+home = "//*[@id='navbarExample']/ul/li[1]/a"
+=======
+<<<<<<< HEAD
 logged_in_username = "(//a[@class='nav-link'])[7]"
 logged_in_user_name_text = "Welcome pythonlogic"
 
@@ -51,3 +71,4 @@ purchase_btn = "//div[@class='modal-footer']/button[text()='Purchase']"
 confirmation_ok_btn = "//div[@class='sa-confirm-button-container']/button[text()='OK']"
 >>>>>>> master
 
+>>>>>>> 12aa8be2b2487edbea3da41c219094de6a0d6c73
