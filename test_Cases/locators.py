@@ -13,8 +13,7 @@ account_text_username = "pythonlogic"
 account_text_password = "pythonlogic"
 login_close = "(//button[@type='button'])[8]"
 account_login = "(//button[@type='button'])[9]"
-<<<<<<< HEAD
-laptops= "(//a[@class='list-group-item'])[3]"
+laptops = "(//a[@class='list-group-item'])[3]"
 sonyvaio = "(//*[@id='tbodyid']/div[1]/div/div/h4/a)"
 addtocart = "(//*[@id='tbodyid']/div[2]/div/a)"
 sony_laptop_name = "//*[@id='tbodyid']/h2"
@@ -28,12 +27,10 @@ card = "(//*[@id='card'])"
 month = "(//*[@id='month'])"
 year = "(//*[@id='year'])"
 purchase_btn = "(//*[@id='orderModal']/div/div/div[3]/button[2])"
-okay_btn =  "(/html/body/div[10]/div[7]/div/button)"
+okay_btn = "(/html/body/div[10]/div[7]/div/button)"
 macbook = "(//*[@id='tbodyid']/div[3]/div/div/h4/a)"
 addcart_btn = "(//*[@id='tbodyid']/div[2]/div/a)"
 home = "//*[@id='navbarExample']/ul/li[1]/a"
-=======
-<<<<<<< HEAD
 logged_in_username = "(//a[@class='nav-link'])[7]"
 logged_in_user_name_text = "Welcome pythonlogic"
 
@@ -54,9 +51,7 @@ home_banner_backward_btn = "carousel-control-prev-icon"
 wrong_cred_username = "9999"
 wrong_cred_password = "9999"
 wrong_cred_close = "btn btn-secondary"
-=======
-
-#ph_locators
+# ph_locators
 ph_product = "Samsung galaxy s6"
 ph_add_to_cart_btn = "Add to cart"
 cart_btn = "Cart"
@@ -69,6 +64,3 @@ month_txt_field = "month"
 year_txt_field = "year"
 purchase_btn = "//div[@class='modal-footer']/button[text()='Purchase']"
 confirmation_ok_btn = "//div[@class='sa-confirm-button-container']/button[text()='OK']"
->>>>>>> master
-
->>>>>>> 12aa8be2b2487edbea3da41c219094de6a0d6c73

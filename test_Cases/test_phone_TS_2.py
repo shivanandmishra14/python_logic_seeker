@@ -11,8 +11,7 @@ from python_logic_seeker.test_Cases.locators import *
 # from TestCase.locators import *
 # from selenium.webdriver import ActionChains
 
-driver = webdriver.Chrome(executable_path="C:\\Users\\shiva\\Downloads\\SDET-DevOps\\python_logic_seeker\\driver"
-                                          "\\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="..\\driver\\chromedriver.exe")
 
 driver.maximize_window()
 

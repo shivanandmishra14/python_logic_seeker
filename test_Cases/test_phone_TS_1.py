@@ -13,7 +13,7 @@ from test_Cases.locators_phone import *
 
 #import
 
-driver = webdriver.Chrome(executable_path="..//driver//chromedriver.exe")
+driver = webdriver.Chrome(executable_path="..\\driver\\chromedriver.exe")
 
 driver.maximize_window()
 
